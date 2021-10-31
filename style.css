@@ -8,7 +8,7 @@ html {
   font-size: 2.18rem;
   text-align: center;
   color: #fff;
-  margin-top: 2rem;
+  margin-bottom: .8rem;
 }
 
 .title span {
@@ -20,8 +20,8 @@ html {
   justify-content: center;
   text-align: center;
   border: none;
-  width: 20rem;
-  height: 28rem;
+  width: 22rem;
+  height: 30rem;
   padding: 1.56rem 0;
   margin: auto;
   border-radius: 1rem;
@@ -29,8 +29,8 @@ html {
 }
 
 .timer {
-  width: 14.5rem;
-  height: 14.5rem;
+  width: 16rem;
+  height: 15rem;
   border: .1rem solid #444444;
   margin: .6rem auto auto auto;
   border-radius: 12%;
@@ -50,12 +50,12 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .btn {
-  width: 12.7rem;
-  height: 2.4rem;
+  width: 15.5rem;
+  height: 3.2rem;
   border-radius: .5rem;
   border: none;
   margin: .2rem;
@@ -70,15 +70,8 @@ html {
   transform: scale(.8)
 }
 
-#start:hover,
-#stop:hover,
-#shortBreak:hover,
-#longBreak:hover  {
-  background: #cecece;
-}
-
 .btn .fas {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #start {
@@ -87,10 +80,18 @@ html {
  color: #fff;
 }
 
+#start:hover {
+  background: #7fb981;
+}
+
 #stop {
   background: #f44336;
   font-weight: 700;
   color: #fff;
+}
+
+#stop:hover {
+  background: #f57e75;
 }
 
 .break-buttons button {
@@ -98,7 +99,6 @@ html {
   height: 3.2rem;
   border-radius: .5rem;
   border: none;
-  line-height: 13px;
   background: #555555;
   color: #fff;
   cursor: pointer;
@@ -107,24 +107,35 @@ html {
   margin-top: .1rem;
 }
 
+#shortBreak {
+  width: 6.7rem;
+  font-size: 0.55rem;
+  letter-spacing: 0.07rem;
+}
+
+#longBreak {
+  width: 8.6rem;
+  font-size: 0.55rem;
+  letter-spacing: 0.07rem;
+}
+
+#shortBreak:hover,
+#longBreak:hover  {
+  background: #9b9b9b;
+} 
+
 .break-buttons button:active {
   transform: scale(.8)
 }
 
-#shortBreak {
-  width: 5rem;
-  font-size: 0.65rem;
-  padding: 0.7rem;
-}
-
-#longBreak {
-  width: 7.4rem;
-  font-size: 0.65rem;
-  padding: 0.7rem;
+.break-buttons span {
+  font-size: .92rem;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
 }
 
 p {
-  margin-top: 1.6rem;
+  margin-top: 1.2rem;
   color: #4d4d4d;
   font-size: .55rem;
   letter-spacing: .03rem;
@@ -133,6 +144,7 @@ p {
 p a {
   cursor: pointer;
   font-size: .7rem;
+  color: #4d4d4d;
 }
 
 
