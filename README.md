@@ -18,6 +18,6 @@
 
 >## Layout 🎥
 
-<img src="https://github.com/giselle-ferreira/CalculatorJS/blob/main/assets/calc2.gif" />
+<img src="https://github.com/giselle-ferreira/PomodoroApp/blob/main/assets/pomodoroapp_.gif" />
 
 
